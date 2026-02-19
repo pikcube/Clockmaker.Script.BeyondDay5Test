@@ -1,0 +1,140 @@
+[
+  {
+    "id": "_meta",
+    "name": "Beyond Day 5 Test",
+    "author": "Pikcube",
+    "firstNight": [
+      "dusk",
+      "stormcatcher_beyond day 5",
+      "wraith",
+      "apprentice",
+      "barista",
+      "magician",
+      "minioninfo",
+      "demoninfo",
+      "poisoner",
+      "courtier",
+      "snakecharmer",
+      "huntswoman",
+      "cerenovus",
+      "mezepheles",
+      "damsel",
+      "amnesiac",
+      "grandmother",
+      "dreamer",
+      "knight",
+      "balloonist",
+      "dawn",
+      "leviathan"
+    ],
+    "otherNight": [
+      "dusk",
+      "wraith",
+      "barista",
+      "bonecollector",
+      "poisoner",
+      "courtier",
+      "snakecharmer",
+      "cerenovus",
+      "mezepheles",
+      "huntswoman",
+      "damsel",
+      "amnesiac",
+      "grandmother",
+      "dreamer",
+      "flowergirl",
+      "oracle",
+      "balloonist",
+      "dawn",
+      "leviathan"
+    ]
+  },
+  "knight",
+  "grandmother",
+  {
+    "id": "huntswoman",
+    "edition": "Beyond Day 5",
+    "name": "Huntswoman",
+    "firstNightReminder": "Show the Huntswoman an in play outsider.",
+    "otherNightReminder": "The Huntswoman might choose a player.  If that player was an outsider: Put the Huntswoman to sleep. Wake the outsider and show them the *YOU ARE* info token and their new character token.",
+    "team": "townsfolk",
+    "reminders": [
+      "No Ability"
+    ],
+    "setup": true,
+    "ability": "You start knowing an in play outsider. Once per game, at night*, choose a living player: an outsider, if chosen, becomes a not-in-play Townsfolk. [At Least 1 Outsider]",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.BeyondDay5Test/main/token/huntswoman/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.BeyondDay5Test/main/token/huntswoman/1.png"
+    ],
+    "flavor": "My cabin is warm and sturdy. My axe by the door, my boots drying by the fire, and elk stew a-simmering… Hark! A scream echoes through the valley! The rain and the mud and the cold, cold wind mask the scent of the wolves, but I know the path and my pace is steady. I am coming."
+  },
+  "balloonist",
+  "snakecharmer",
+  "dreamer",
+  "flowergirl",
+  "oracle",
+  "alsaahir",
+  "courtier",
+  "artist",
+  "cannibal",
+  "amnesiac",
+  "magician",
+  "drunk",
+  "recluse",
+  "mutant",
+  "zealot",
+  "damsel",
+  "mezepheles",
+  "poisoner",
+  "cerenovus",
+  "wraith",
+  "baron",
+  "leviathan",
+  "djinn",
+  "barista",
+  "matron",
+  "bonecollector",
+  "apprentice",
+  "bootlegger",
+  {
+    "id": "stormcatcher_beyond day 5",
+    "edition": "loric",
+    "name": "Storm Catcher",
+    "firstNightReminder": "At the start of the night, announce the Courtier is stormcaught. If that character is in play, mark that player as *STORMCAUGHT*. :reminder: Wake each evil player and show them the character token, then the marked player.  If not in play, wake each evil player, show them the *THESE CHARACTERS ARE NOT IN PLAY* token and the relevant character token.",
+    "team": "loric",
+    "reminders": [
+      "Stormcaught"
+    ],
+    "setup": false,
+    "ability": "If the Courtier is in play, they can only die by execution, but evil players learn which player they are.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.BeyondDay5Test/main/token/stormcatcher_beyond%20day%205/0.png"
+    ],
+    "flavor": "At dawn, the temple’s long shadow creeps to the fountain. At dusk, the obelisk blocks the red glare, cooling warm water under the archway. All lines converge here. A storm is coming, and this, this pebbled and lush and holy place between the apple trees, is the eye."
+  },
+  {
+    "id": "Beyond Day 5_32",
+    "edition": "Beyond Day 5",
+    "name": "Test Loric",
+    "team": "townsfolk",
+    "reminders": [],
+    "setup": false,
+    "ability": "This is a test",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [
+      {
+        "type": "player",
+        "name": "open-eyes",
+        "time": "day"
+      }
+    ]
+  }
+]
